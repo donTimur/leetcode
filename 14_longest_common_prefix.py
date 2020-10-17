@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/longest-common-prefix/
+
 def longestCommonPrefix(strs: [str]) -> str:
     if not strs:
         return ''
@@ -12,6 +14,3 @@ def longestCommonPrefix(strs: [str]) -> str:
         else:
             index += 1
     return shortest[:index]
-
-#Input: strs = ["flower","flow","flight"]
-#Output: "fl"
